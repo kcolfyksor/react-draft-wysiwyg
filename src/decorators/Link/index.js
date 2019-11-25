@@ -53,7 +53,7 @@ function getLinkComponent(config) {
           onMouseEnter={this.toggleShowPopOver}
           onMouseLeave={this.toggleShowPopOver}
         >
-          <a className="rdw-link-text" href={url} target={targetOption}>
+          <a style={{ color: "#ff88c0" }} href={url} target={targetOption}>
             {children}
           </a>
           {showPopOver && showOpenOptionOnHover ? (
